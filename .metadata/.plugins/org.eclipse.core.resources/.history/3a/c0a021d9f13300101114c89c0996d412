@@ -1,0 +1,5 @@
+package com.numberOnProjeto.myproject.repositories;
+
+public class CategoryRepository {
+
+}

@@ -1,0 +1,31 @@
+package com.numberOnProjeto.myproject.repositories;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.stereotype.Component;
+
+import com.numberOnProjeto.myproject.entities.Category;
+
+@Component
+public class CategoryRepository {
+	//Map uma da coleção de pares valores  ele faz quarda uma colecao do tipo Long que foi usada
+	private Map<Long, Category> map;
+	
+	// salvar uma categoria 
+	public void save(Category obj) {
+		
+	}
+	
+	// informar um id retornado a categoria que foi infoprmado 
+	public Category findBayId(Long id) {
+		
+	}
+	
+	//tras todos as lista do banco de dados
+	public List<Category> findAll(){
+		
+	}
+	
+
+}
